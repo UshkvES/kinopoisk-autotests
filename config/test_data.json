@@ -1,0 +1,18 @@
+{
+    "search_queries": {
+        "full_title": "Интерстеллар",
+        "empty": "",
+        "non_existent": "hg3ryhg!ecfyguyfch"
+    },
+    "filters": {
+        "genre": "аниме",
+        "country": "Нигерия",
+        "year_from": 1920,
+        "year_to": 1925
+    },
+    "api": {
+        "movie_id": 1100777,
+        "season_number": 2,
+        "episode_number": 4
+    }
+}

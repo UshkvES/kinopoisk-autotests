@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.idea/
+allure-results/
+allure-report/
+*.log
+*.exe
+chromedriver
+geckodriver
+.env
