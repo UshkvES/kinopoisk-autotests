@@ -13,21 +13,37 @@
 
 ### Структура проекта
 kinopoisk_autotests/
+
 ├── config/ # Конфигурации и тестовые данные
+
 │ ├── settings.py # Настройки (URL, токены, селекторы)
+
 │ └── test_data.json # Тестовые данные
+
 ├── pages/ # PageObject для UI тестов
+
 │ ├── base_page.py # Базовый класс страницы
+
 │ └── main_page.py # Главная страница
+
 ├── api/ # API клиент
+
 │ └── kinopoisk_api.py # Класс для работы с API
+
 ├── tests/ # Тесты
+
 │ ├── test_ui.py # UI тесты
+
 │ └── test_api.py # API тесты
+
 ├── conftest.py # Фикстуры pytest
+
 ├── pytest.ini # Конфигурация pytest
+
 ├── requirements.txt # Зависимости
+
 └── README.md # Документация
+
 
 
 ## Установка и запуск
@@ -49,9 +65,11 @@ pytest -v
 
 ### 6. Запуск с отчетом Allure
 pytest --alluredir=allure-results
+
 allure serve allure-results
 
 ## Ссылки
 
 Финальный проект по ручному тестированию: https://ushakova-es.yonote.ru/share/bf1cf294-1de2-44a0-99e1-d2281ec4e46e
+
 Кинопоиск: https://www.kinopoisk.ru/
